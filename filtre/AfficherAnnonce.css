@@ -1,0 +1,39 @@
+.carousel-indicators{
+    box-sizing: border-box;
+    position: absolute;
+    top: 100%;
+    left: -15%;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.carousel-indicators::-webkit-scrollbar{
+    height: 5px;
+}
+.carousel-indicators::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+.carousel-indicators::-webkit-scrollbar-thumb {
+    background: #26966d;
+}
+.carousel-indicators::-webkit-scrollbar-thumb:hover {
+    background: #60bb9a;
+  }
+
+.carousel-indicators li {
+    margin-top: .2rem;
+    flex-shrink: 0;
+    width: 85px;
+    height: 55px;
+}
+
+
+@media all and (max-width:1000px) {
+    #full.container{
+        width: 100%;
+    }
+}

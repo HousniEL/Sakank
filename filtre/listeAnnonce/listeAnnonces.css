@@ -1,0 +1,94 @@
+:root{
+    --fontSize : 0pt;
+}
+.contientannonce{
+    border: 1px solid;
+    display: flex;
+    margin-bottom: 1rem;
+    height: 220px;
+    width: 100%;
+}
+
+.contientannonce .defautImage{
+    border-bottom: none;
+    border-right:1px solid black;
+    flex: 0 1 38%;
+}
+
+.contientannonce .photo{
+    position: relative;
+    flex: 0 1 38%;
+}
+
+.contientannonce .info{
+    flex: 0 1 62%;
+    padding: .5rem;
+}
+
+.contientannonce .info .prix {
+    font-size: calc( 16pt - var(--fontSize) );
+}
+
+.contientannonce .info .temps {
+    font-size: calc( 10pt - var(--fontSize) );
+}
+
+.contientannonce .info .titre {
+    font-size: calc( 14pt - var(--fontSize) );
+}
+
+.contientannonce .info .location {
+    font-size: calc( 11pt - var(--fontSize) );
+}
+
+.contientannonce .info .catEtpieces {
+    font-size: calc( 12pt - var(--fontSize) );
+}
+
+
+@media screen and (max-width:768px) {
+    :root{
+        --fontSize: 2pt;
+    }
+    .contientannonce{
+        height: 100% !important;
+        flex-direction: column;
+        width: clamp(200px, 60%, 60%);
+    }
+
+    .contientannonce .defautImage{
+        height: 190px;
+        border-right: none;
+        border-bottom:1px solid black;
+    }
+    .contientannonce .photo{
+        height: 190px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    :root{
+        --fontSize: 1pt;
+    }
+    .contientannonce{
+        height: 185px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .contientannonce{
+        height: 170px;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .contientannonce{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:1000px) {
+    .contientannonce{
+        height: 200px;
+    }
+}

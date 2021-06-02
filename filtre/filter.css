@@ -1,0 +1,112 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+
+@font-face{
+    font-family: baloo;
+    src:url("../Fonts/baloo.ttf");
+}
+@font-face{
+    font-family: rubik;
+    src:url("../Fonts/rubik-light.ttf");
+}
+#chercher{
+	background-color: #26966d;
+	outline: none;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+    font-family: baloo;
+    font-size: 13pt;
+}
+
+
+.bootstrap-select .dropdown-toggle:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+input{
+    box-shadow: none !important;
+}
+.bootstrap-select,
+input{
+    font-family: baloo;
+}
+.bootstrap-select .dropdown-toggle{
+    width: 100%;
+}
+.bootstrap-select{
+    height: 100%;
+}
+.bootstrap-select .selected{
+    background-color: #26966d;
+    color: white;
+}
+.tup:nth-child(1){
+    outline: none;
+    border: none;
+    font-family: baloo;
+}
+.tup:nth-child(1):hover{
+    background-color: #26966d;
+    color: white;			
+}
+#block2 input{
+    outline: none;
+    border: none;
+}
+#block6 input{
+    outline: none;
+    border: none;
+}
+#block11 input{
+    outline: none;
+    border: none;
+}
+.btn-danger:hover{
+    background-color: #DC3545;
+}
+.btn-danger:focus{
+    background-color: #DC3545;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.pageitem.active .page-link{
+    background-color: #26966d;
+    color: white;
+}
+
+.pageitem, .page-link{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+@media screen and (max-width:764px) {
+    div#block1 { order: 1; }
+    div#block2 { order: 5; }
+    div#block3 { order: 7; }
+    div#block4 { order: 9; }
+    div#block5 { order: 3; }
+    div#block6 { order: 6; }
+    div#block7 { order: 8; }
+    div#block8 { order: 10; }
+    div#block9 { order: 2; }
+    div#block10 { order: 4; }
+    div#block11 { order: 11; }
+
+}
