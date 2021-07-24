@@ -1,0 +1,104 @@
+/*@font-face{
+	font-family: baloo;
+	src:url("../Fonts/baloo.ttf");
+}*/
+
+
+#blockA div img{
+	
+}
+#blockB>div a{
+	font-family:baloo;
+	color: white;
+	text-decoration: none;
+}
+#blockC>div a{
+	font-family:baloo;
+	color: white;
+	text-decoration: none;
+}
+#blockB>div:hover a{
+	color: #000;
+}
+#blockC>div:hover a{
+	color: #000;
+}
+#blockD>div:nth-child(2){
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background-image: url("social.jpg");
+	background-size: auto 290px;
+	background-position: 877.5px 503px;
+}
+#blockD>div:nth-child(2):hover{
+	cursor: pointer;
+	background-size: auto 290px;
+	background-position: 877.5px -23.6px;
+}
+#blockD>div:nth-child(3){
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background-image: url("social.jpg");
+	background-size: auto 290px;
+	background-position: 838.2px 503px;
+}
+#blockD>div:nth-child(3):hover{
+	cursor: pointer;
+	background-size: auto 290px;
+	background-position: 838.2px -23.6px;
+}
+#blockD>div:nth-child(4){
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background-image: url("social.jpg");
+	background-size: auto 290px;
+	background-position: 799px 503px;
+}
+#blockD>div:nth-child(4):hover{
+	cursor: pointer;
+	background-size: auto 290px;
+	background-position: 799px -23.6px;
+}
+#blockD>div:nth-child(5){
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background-image: url("social.jpg");
+	background-size: auto 290px;
+	background-position: 760px 503px;
+}
+#blockD>div:nth-child(5):hover{
+	cursor: pointer;
+	background-size: auto 290px;
+	background-position: 760px -23.8px;
+}
+#blockD>div:nth-child(6){
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background-image: url("social.jpg");
+	background-size: auto 290px;
+	background-position: 720.5px 503px;
+}
+#blockD>div:nth-child(6):hover{
+	cursor: pointer;
+	background-size: auto 290px;
+	background-position: 720.5px -23.6px;
+}
+
+@media all and (max-width: 768px){
+	#blockB div{
+		text-align: center;
+	}
+	#blockC div{
+		text-align: center;
+	}
+} 
